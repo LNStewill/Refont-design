@@ -19,6 +19,14 @@ comme solution on peut mettre dans l'element *a* une balise et l'appliquer un st
 ***Resultat du lighthouse***
 ![cover](./accessibility.png)
 
->On remarque que après nos modificatons l'indicateur SEO est à 100 
->Aussi il ya toujours des problèmes d'accessibilités qui persistent au fait des constrates dans les couleurs etc il faudrait ajuster les couleurs et bien les nuancer 
->Anfin concernant les bonnes pratiques ce qui est recommandé c'est de sécuriser le site en utilisant le protocole **https** 
+>On remarque que après nos modificatons l'indicateur SEO est à 100
+
+>Aussi il ya toujours des problèmes d'accessibilités qui persistent au fait des constrates dans les couleurs etc il faudrait ajuster les couleurs et bien les nuancer, aussi l'ajout de l'élément *label* après les éléments inputs de type *password* , *text* , 
+
+>Anfin concernant les bonnes pratiques ce qui est recommandé c'est de sécuriser le site en utilisant le protocole **https**
+
+
+***Conversion px to rem***
+>Mise en place dans la pseudo class *:root* de la valeur de base **1rem = 10 px**
+
+>Ensuite procéder au calcul à chaque utilisation de l'unité pixel pour avoir la valeur en rem
